@@ -513,7 +513,7 @@ io.on("connection", (socket) => {
 });
 
 mongoose
-  .connect("mongodb+srv://abshr:abshr@abshr.fxznc.mongodb.net/SalamaTest")
+  .connect("mongodb+srv://amazon:wfao74K8WVNBahDQ@arab.dzdqr5o.mongodb.net/SalamaV3")
   .then((conn) =>
     server.listen(PORT, async () => {
       // await Order.deleteMany({})
